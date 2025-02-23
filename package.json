@@ -1,7 +1,6 @@
 {
   "name": "global-cursor",
   "description": "Set a cursor that applies to the global scope",
-  "private": true,
   "version": "0.0.1",
   "type": "module",
   "scripts": {
