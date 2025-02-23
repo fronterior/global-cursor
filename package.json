@@ -1,0 +1,44 @@
+{
+  "name": "global-cursor",
+  "description": "Set a cursor that applies to the global scope",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fronterior/global-cursor"
+  },
+  "keywords": [
+    "cursor",
+    "pointer",
+    "css",
+    "style",
+    "ui",
+    "editor"
+  ],
+  "homepage": "https://github.com/fronterior/global-cursor#readme",
+  "bugs": {
+    "url": "https://github.com/fronterior/global-cursor/issues",
+    "email": "lowfronterior@gmail.com"
+  },
+  "author": {
+    "name": "fronterior",
+    "email": "lowfronterior@gmail.com"
+  },
+  "exports": {
+    "types": "./dist/global-cursor.d.ts",
+    "import": "./dist/global-cursor.mjs",
+    "require": "./dist/global-cursor.cjs"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "typescript": "~5.7.2",
+    "vite": "^6.1.0",
+    "vite-plugin-dts": "^4.5.0"
+  }
+}
